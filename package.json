@@ -1,0 +1,18 @@
+{
+  "name": "yarn2-breaks-hapi-swaffer",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^9.1.1",
+    "@hapi/hapi": "^20.0.3",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^6.0.1",
+    "hapi-swagger": "^13",
+    "nodemon": "^2.0.6"
+  }
+}
